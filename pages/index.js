@@ -6,7 +6,7 @@ import Avatar from "../components/Avatar";
 import { motion } from "framer-motion";
 //variants
 import { fadeIn } from "../variants";
-
+import About from "./about/index"
 const Home = () => {
   return (
     <div className="bg-primary/60 h-full">

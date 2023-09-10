@@ -14,11 +14,11 @@ export const navData = [
   { name: "about", path: "/about", icon: <HiUser /> },
   { name: "services", path: "/services", icon: <HiRectangleGroup /> },
   { name: "work", path: "/work", icon: <HiViewColumns /> },
-  {
-    name: "testimonials",
-    path: "/testimonials",
-    icon: <HiChatBubbleBottomCenterText />,
-  },
+  // {
+  //   name: "testimonials",
+  //   path: "/testimonials",
+  //   icon: <HiChatBubbleBottomCenterText />,
+  // },
   {
     name: "contact",
     path: "/contact",
@@ -40,6 +40,7 @@ const Nav = () => {
             <Link
               href={link.path}
               key={index}
+             
               className={`${
                 link.path === pathname && "text-accent"
               } relative flex items-center group hover:text-accent transition-all duration-300`}
